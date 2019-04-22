@@ -1,0 +1,103 @@
+slots: 
+  location: 
+    type: text
+  cuisine: 
+    type: text
+  supported_location: 
+    type: bool
+  valid_email_address: 
+    type: bool
+  restaurant_found: 
+    type: bool
+  email_address: 
+    type: text
+  budget: 
+    type: categorical
+    values: 
+      - under 300
+      - 300 to 700
+      - over 700
+  search_result: 
+    type: unfeaturized
+
+entities: 
+- location
+- cuisine
+- budget
+- email_address
+
+intents: 
+ - greet
+ - affirm
+ - deny
+ - goodbye
+ - thankyou
+ - restaurant_search
+ - email_entry
+
+
+templates: 
+  utter_greet: 
+    - "hey there! How may i help you"
+    - "Hi, How can I help you!"
+    - "Hey, How is it going. How May I help you Today"
+  utter_goodbye: 
+    - "goodbye :("
+    - "Bye-bye"
+  utter_default: 
+    - "I could not process you last query. I am terribly sorry."
+  utter_sending_email: 
+    - "An email is being sent."
+  utter_ask_email_send: 
+    - "Would you like me to send you an eail with details?"
+  utter_ask_email_address: 
+    - "Could you please tell me your email address?"
+  utter_invalid_email: 
+    - "It seems you might have entered an invalid email. Would you like to try again?"
+  utter_ask_cuisine: 
+    - text: "what kind of cuisine would you like?"
+      buttons: 
+      - title: "Chinese"
+        payload: "Chinese"
+      - title: "Mexican"
+        payload: "Mexican"
+      - title: "Italian"
+        payload: "Italian"
+      - title: "American"
+        payload: "American"
+      - title: "South Indian"
+        payload: "South Indian"
+      - title: "North Indian"
+        payload: "North Indian"
+  utter_ask_howcanhelp: 
+    - "how can I help you?"
+  utter_ask_location: 
+    - "In what location?"
+  utter_unsupported_city: 
+    - "We do not operate in that city yet."
+  utter_ask_budget: 
+    - text: "Which budget range for 2 people do you prefer?"
+      buttons: 
+        - title: "Under INR 300"
+          payload: "under 300"
+        - title: "INR 300 to INR 700"
+          payload: "300 to 700"
+        - title: "Over INR 700"
+          payload: "over 700"
+
+actions: 
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_cuisine
+- utter_unsupported_city
+- utter_ask_budget
+- utter_sending_email
+- utter_ask_email_send
+- utter_ask_email_address
+- utter_invalid_email
+- actions.ActionSearchRestaurants
+- actions.ActionCheckAreaOfOperation
+- actions.ActionSendMail
