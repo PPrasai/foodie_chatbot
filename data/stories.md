@@ -853,3 +853,41 @@
     - utter_unsupported_city
     - utter_goodbye
 
+## Generated Story 3963926566752534467
+* greet
+    - utter_greet
+* restaurant_search
+    - utter_ask_location
+* restaurant_search{"location": "kolkata"}
+    - slot{"location": "kolkata"}
+    - action_check_ao
+    - slot{"supported_location": true}
+    - utter_ask_budget
+* restaurant_search{"budget": "300 to 700"}
+    - slot{"budget": "300 to 700"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "chinese"}
+    - slot{"cuisine": "chinese"}
+    - action_restaurant
+    - slot{"restaurant_found": true}
+    - slot{"search_result": "Here are the results of you search: \n\n1. Overdose\n23, Lake Terrace, Sarath Bose Road, Southern Avenue, Kolkata\nHas Excellent rating of 4.5\nWith an average bill amount of Rs. 550\n\n2. The Bhoj Company\n60, Hemanta Basu Sarani, Dalhousie BBD Bagh, Kolkata(Stephen House) Opp.B.B.D Bagh mini bus stand\nHas Excellent rating of 4.5\nWith an average bill amount of Rs. 500\n\n3. Second House Restaurant\n14, Sardar Shankar Road, Behind Lake Mall, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 550\n\n4. Macazzo\n64, Southern Avenue, Near Menoka Cinema Hall, Beside Medinova Diagnostic Services, Southern Avenue, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 500\n\n5. Momo I Am\nCD 18, Next To Kalyan Jewelers, City Centre 1, Sector 1, Salt Lake\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n6. Momo I Am\nShop G-B, Ground Floor, Tarun Alo Apartment, Chinar Park\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n7. Momo I Am\n43 Ballygunge Gardens, Gariahat, Golpark, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n8. Momo I Am\n195 C, Near Bandhan Bank, Lake Gardens, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n9. Tung Nam\n24, Chattwala Gully, Near Terreti Bazar, Bara Bazar, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n10. Kolkata Restro\n132/1 B, Bidhan Sarani, Hatibagan, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n"}
+    - utter_ask_email_send
+* affirm
+    - utter_ask_email_address
+* email_entry{"email_address": "letters.prasai@gmail.com"}
+    - slot{"email_address": "letters.prasai@gmail.com"}
+    - utter_sending_email
+    - action_send_mail
+    - slot{"search_result": "Here are the results of you search: \n\n1. Overdose\n23, Lake Terrace, Sarath Bose Road, Southern Avenue, Kolkata\nHas Excellent rating of 4.5\nWith an average bill amount of Rs. 550\n\n2. The Bhoj Company\n60, Hemanta Basu Sarani, Dalhousie BBD Bagh, Kolkata(Stephen House) Opp.B.B.D Bagh mini bus stand\nHas Excellent rating of 4.5\nWith an average bill amount of Rs. 500\n\n3. Second House Restaurant\n14, Sardar Shankar Road, Behind Lake Mall, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 550\n\n4. Macazzo\n64, Southern Avenue, Near Menoka Cinema Hall, Beside Medinova Diagnostic Services, Southern Avenue, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 500\n\n5. Momo I Am\nCD 18, Next To Kalyan Jewelers, City Centre 1, Sector 1, Salt Lake\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n6. Momo I Am\nShop G-B, Ground Floor, Tarun Alo Apartment, Chinar Park\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n7. Momo I Am\n43 Ballygunge Gardens, Gariahat, Golpark, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n8. Momo I Am\n195 C, Near Bandhan Bank, Lake Gardens, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n9. Tung Nam\n24, Chattwala Gully, Near Terreti Bazar, Bara Bazar, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n10. Kolkata Restro\n132/1 B, Bidhan Sarani, Hatibagan, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n\n*****SENT*****"}
+    - utter_goodbye
+
+## Generated Story 6747742325400049123
+* greet
+    - utter_greet
+* restaurant_search{"location": "birtamod"}
+    - slot{"location": "birtamod"}
+    - action_check_ao
+    - slot{"supported_location": false}
+    - utter_unsupported_city
+    - utter_goodbye
+
