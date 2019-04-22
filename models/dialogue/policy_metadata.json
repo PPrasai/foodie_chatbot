@@ -3,8 +3,8 @@
     "action_listen": {
       "slots": [
         "location",
-        "email_address",
         "budget",
+        "email_address",
         "cuisine"
       ]
     },
@@ -13,16 +13,16 @@
     },
     "action_check_ao": {
       "slots": [
-        "supported_location",
         "budget",
+        "supported_location",
         "cuisine"
       ]
     },
     "action_restaurant": {
       "slots": [
         "location",
-        "search_result",
-        "restaurant_found"
+        "restaurant_found",
+        "search_result"
       ]
     },
     "action_send_mail": {
@@ -34,18 +34,18 @@
   "python": "3.6.8",
   "max_histories": [
     5,
-    null,
     4,
+    null,
     2
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.keras_policy.KerasPolicy",
-    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190422-170230",
+  "trained_at": "20190422-182240",
   "rasa_core": "0.13.8",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

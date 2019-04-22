@@ -6,8 +6,8 @@ policies:
         state_featurizer:
           - name: BinarySingleStateFeaturizer
     epochs: 500
-  - name: FallbackPolicy
-    fallback_action_name: 'action_default_fallback'
   - name: MemoizationPolicy
     max_history: 4
+  - name: FallbackPolicy
+    fallback_action_name: 'action_default_fallback'
   - name: FormPolicy

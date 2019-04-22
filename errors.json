@@ -1,0 +1,18 @@
+[
+    {
+        "text": "hari@prasad.org",
+        "intent": "email_entry",
+        "intent_prediction": {
+            "name": "restaurant_search",
+            "confidence": 0.4301239606866202
+        }
+    },
+    {
+        "text": "test@testing.co.in",
+        "intent": "email_entry",
+        "intent_prediction": {
+            "name": "restaurant_search",
+            "confidence": 0.4301239606866202
+        }
+    }
+]

@@ -484,3 +484,31 @@
     - utter_goodbye
     - export
 
+## Generated Story -5401073206999282069
+* greet
+    - utter_greet
+* restaurant_search
+    - utter_ask_location
+* restaurant_search{"location": "delhi"}
+    - slot{"location": "delhi"}
+    - action_check_ao
+    - slot{"supported_location": true}
+    - utter_ask_budget
+* restaurant_search{"budget": "300 to 700"}
+    - slot{"budget": "300 to 700"}
+    - utter_ask_cuisine
+* restaurant_search{"cuisine": "chinese"}
+    - slot{"cuisine": "chinese"}
+    - action_restaurant
+    - slot{"restaurant_found": true}
+    - slot{"search_result": "Here are the results of you search: \n\n1. Dana Choga\n5 & Amp; 6, Atul Kataria Chowk, Sector 14, Gurgaon\nHas Excellent rating of 4.7\nWith an average bill amount of Rs. 500\n\n2. Echoes Hudson Lane\n2522 2nd & 3rd Floor, Hudson Lane, Kingsway Camp, Model Town 1, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n3. Desi Dakaar\nSector 26, Noida\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 500\n\n4. Amar Jyoti\n186, Sarojini Nagar Market, Sarojini Nagar, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n5. Chinese Veg Crunch\nA-4, Shop No-32, DDA Market, Paschim Vihar, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 450\n\n6. Food of Dreams\nPaschim Vihar, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 500\n\n7. Me-Bo: Meal in a Bowl\n8 IDC, MG Road, Gurgaon\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n8. Asian Soi\nPatparganj, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n9. Diners Den\n30/5, Nangiya Park, Ground Floor, Shakti Nagar, Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 400\n\n10. Armaan's Food\nArcade A, Amprali Princely Estate, Sector-76 Near Sector 72, Noida\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n"}
+    - utter_ask_email_send
+* affirm{"email_address": "letters.prasai@gmail.com"}
+    - slot{"email_address": "letters.prasai@gmail.com"}
+    - utter_sending_email
+    - action_send_mail
+    - slot{"search_result": "Here are the results of you search: \n\n1. Dana Choga\n5 & Amp; 6, Atul Kataria Chowk, Sector 14, Gurgaon\nHas Excellent rating of 4.7\nWith an average bill amount of Rs. 500\n\n2. Echoes Hudson Lane\n2522 2nd & 3rd Floor, Hudson Lane, Kingsway Camp, Model Town 1, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n3. Desi Dakaar\nSector 26, Noida\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 500\n\n4. Amar Jyoti\n186, Sarojini Nagar Market, Sarojini Nagar, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n5. Chinese Veg Crunch\nA-4, Shop No-32, DDA Market, Paschim Vihar, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 450\n\n6. Food of Dreams\nPaschim Vihar, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 500\n\n7. Me-Bo: Meal in a Bowl\n8 IDC, MG Road, Gurgaon\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n8. Asian Soi\nPatparganj, New Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n9. Diners Den\n30/5, Nangiya Park, Ground Floor, Shakti Nagar, Delhi\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 400\n\n10. Armaan's Food\nArcade A, Amprali Princely Estate, Sector-76 Near Sector 72, Noida\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 600\n\n\n*****SENT*****"}
+    - utter_goodbye
+* goodbye
+    - utter_goodbye
+

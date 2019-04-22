@@ -8,8 +8,8 @@ if __name__ == '__main__':
 	
 	train.train_dialogue_model(
 		domain_file = 'restaurant_domain.yml',
-		stories_file = 'data/stories/md',
-		output_path = 'models/dialog',
+		stories_file = 'data/stories.md',
+		output_path = 'models/dialogue',
 		policy_config = 'core_policies.yml',
 		kwargs = {
 			'augmentation_factor': 50,
