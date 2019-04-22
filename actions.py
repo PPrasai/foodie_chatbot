@@ -67,7 +67,18 @@ class ActionCheckAreaOfOperation(Action):
 			'puneraipur', 'rajkot', 'rajahmundry', 'ranchi', 'rourkela', 'salem', 'sangli', 'siliguri', 
 			'solapur', 'srinagar', 'sultanpur', 'surat', 'thiruvananthapuram', 'thrissur', 'tiruchirappalli', 
 			'tirunelveli', 'tiruppur', 'tiruvannamalai', 'ujjain', 'bijapur', 'vadodara', 'varanasi', 
-			'vasai-virar city', 'vijayawada', 'visakhapatnam', 'vellore', 'warangal'
+			'vasai-virar city', 'vijayawada', 'visakhapatnam', 'vellore', 'warangal',
+			"Bangalore", "Bengaluru", "bengaluru", "bangalore", "banglore", "Banglore",
+			"Hyderabad", "Secunderabad", "Kacheguda", "Delhi", "New Delhi", "new delhi", "Dilli", "dilli",
+			"Chennai", "madras", "Madras", "Kolkata", "Calcutta", "calcutta", "Mumbai", "Bombay", "bombay",
+			"Ajmer", "Ajayameru", "ajayameru", "Amaravati", "Amritsar","ramdaspur","ambarsar",
+			"belagavi","belgaon","venugrama", "Bokaro", "jharkhand", "Coimbatore", "Kovai", "Coyamuthur",
+			"dehra dun", "amaravati", "Dharwad", "city of temples", "cannanore", "kolathunadu", "cawnpore",
+			"cocanada", "cochin", "quilon", "kotah", "calicut", "kurnal", "mangaluru", "mysuru", "nasik",
+			"palghat", "puducherry", "pondi", "allahabad", "poona", "rajamahendravaram", "ranch", "sholapore",
+			"trivandrum", "trichur", "trichy", "nellai", "tinnevelly", "trinomali", "trinomalee", "arunachalam", 
+			"vijaypura", "baroda", "banaras","kashi","kasi", "bejawada", "bezawada", "vishakhapatnam", "vizag", "waltair",
+			"orugal"
 		]
 
 		user_location = tracker.get_slot('location')

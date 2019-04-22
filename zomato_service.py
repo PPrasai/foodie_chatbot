@@ -32,6 +32,7 @@ class ZomatoService():
         return formatted_list
 
     def get_restaurants_in_city_with_cuisine(self, city_id, cuisine, limit = None, offset = None):
+        print('***** city id: ', city_id)
         list_of_restaurants = self.zomato.search_restaurant_in_city_with_cuisine(city_id, cuisine, limit, offset)
         list_of_restaurants = json.loads(list_of_restaurants)
 

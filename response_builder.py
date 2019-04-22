@@ -37,6 +37,7 @@ class ResponseBuilder():
                     self.formatted_dict.append(response)
 
             if len(self.formatted_dict) >= 10:
+                self.formatted_dict = self.formatted_dict[:10]
                 return self.formatted_dict
         
         # if the program breaks out of the loop without returning
@@ -47,6 +48,8 @@ class ResponseBuilder():
             offset = self.response_dict_list[-1]['cursor']
             print('offset ', offset)
             self.build_formatted_dict(city_id, budget, cuisine, limit, offset)
+
+        self.formatted_dict = self.formatted_dict[:10]
 
     def build_response(self, city_id, budget, cuisine):
         cuisines_in_city = self.zomatoService.get_cuisines_in_city(city_id)
