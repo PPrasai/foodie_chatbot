@@ -1,34 +1,34 @@
 %YAML 1.1
 ---
 actions:
-- action_check_ao
-- action_send_mail
-- utter_ask_budget
-- utter_default
-- utter_ask_email_address
-- utter_invalid_email
-- utter_ask_location
-- utter_ask_howcanhelp
 - utter_goodbye
-- utter_ask_cuisine
-- utter_ask_email_send
-- utter_unsupported_city
-- utter_greet
-- utter_sending_email
+- utter_ask_email_address
 - action_restaurant
+- utter_ask_cuisine
+- utter_default
+- action_check_ao
+- utter_ask_email_send
+- action_send_mail
+- utter_greet
+- utter_ask_howcanhelp
+- utter_unsupported_city
+- utter_ask_budget
+- utter_invalid_email
+- utter_sending_email
+- utter_ask_location
 entities:
-- budget
-- location
 - cuisine
+- location
+- budget
 - email_address
 intents:
+- greet
 - restaurant_search
 - affirm
-- greet
-- goodbye
-- deny
-- thankyou
 - email_entry
+- deny
+- goodbye
+- thankyou
 slots:
   budget:
     type: categorical

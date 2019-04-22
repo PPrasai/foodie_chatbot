@@ -36,7 +36,7 @@ class ResponseBuilder():
                 if avg_cost > 300 and avg_cost < 700:
                     self.formatted_dict.append(response)
 
-            if len(self.formatted_dict) == 10:
+            if len(self.formatted_dict) >= 10:
                 return self.formatted_dict
         
         # if the program breaks out of the loop without returning
@@ -66,7 +66,7 @@ class ResponseBuilder():
             for one_dict in self.formatted_dict:
                 counter += 1
                 one_response = str(counter) + '. ' + one_dict['name'] + '\n' + one_dict['location']
-                one_response = one_response + '\nHas ' + one_dict['rating_text'] + ' rating of ' + one_dict['rating_score']
+                one_response = one_response + '\nHas ' + one_dict['rating_text'] + ' rating of ' + str(one_dict['rating_score'])
                 one_response = one_response + '\nWith an average bill amount of ' + one_dict['currency'] + ' ' + str(one_dict['avg_cost_for_two']) + '\n\n'
 
                 response = response + one_response

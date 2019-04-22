@@ -1162,6 +1162,341 @@
           "veggie",
           "vegg"
         ]
+      },
+      {
+        "value": "South Indian",
+        "synonyms": [
+          "south indian",
+          "south Indian",
+          "South indian",
+          "south",
+          "South"
+        ]
+      },
+      {
+        "value": "North Indian",
+        "synonyms": [
+          "north indian",
+          "north Indian",
+          "North indian",
+          "north",
+          "North"
+        ]
+      },
+      {
+        "value": "American",
+        "synonyms": [
+          "american"
+        ]
+      },
+      {
+        "value": "Italian",
+        "synonyms": [
+          "italian"
+        ]
+      },
+      {
+        "value": "bengaluru",
+        "synonyms": [
+          "Bangalore",
+          "Bengaluru",
+          "bangalore"
+        ]
+      },
+      {
+        "value": "hyderabad",
+        "synonyms": [
+          "Hyderabad",
+          "Secunderabad",
+          "Kacheguda"
+        ]
+      },
+      {
+        "value": "delhi",
+        "synonyms": [
+          "Delhi",
+          "New Delhi",
+          "new delhi",
+          "Dilli",
+          "dilli"
+        ]
+      },
+      {
+        "value": "chennai",
+        "synonyms": [
+          "Chennai",
+          "madras",
+          "Madras"
+        ]
+      },
+      {
+        "value": "kolkata",
+        "synonyms": [
+          "Kolkata",
+          "Calcutta",
+          "calcutta"
+        ]
+      },
+      {
+        "value": "mumbai",
+        "synonyms": [
+          "Mumbai",
+          "Bombay",
+          "bombay"
+        ]
+      },
+      {
+        "value": "ajmer",
+        "synonyms": [
+          "Ajmer",
+          "Ajayameru",
+          "ajayameru"
+        ]
+      },
+      {
+        "value": "amaravati",
+        "synonyms": [
+          "Amaravati"
+        ]
+      },
+      {
+        "value": "amritsar",
+        "synonyms": [
+          "Amritsar",
+          "ramdaspur",
+          "ambarsar"
+        ]
+      },
+      {
+        "value": "belgaum",
+        "synonyms": [
+          "belagavi",
+          "belgaon",
+          "venugrama"
+        ]
+      },
+      {
+        "value": "bokaro steel city",
+        "synonyms": [
+          "Bokaro",
+          "jharkhand"
+        ]
+      },
+      {
+        "value": "coimbatore",
+        "synonyms": [
+          "Coimbatore",
+          "Kovai",
+          "Coyamuthur"
+        ]
+      },
+      {
+        "value": "dehradun",
+        "synonyms": [
+          "dehra dun"
+        ]
+      },
+      {
+        "value": "guntur",
+        "synonyms": [
+          "amaravati"
+        ]
+      },
+      {
+        "value": "hubli",
+        "synonyms": [
+          "Dharwad"
+        ]
+      },
+      {
+        "value": "jammu",
+        "synonyms": [
+          "city of temples"
+        ]
+      },
+      {
+        "value": "kannur",
+        "synonyms": [
+          "cannanore",
+          "kolathunadu"
+        ]
+      },
+      {
+        "value": "kanpur",
+        "synonyms": [
+          "cawnpore"
+        ]
+      },
+      {
+        "value": "kakinada",
+        "synonyms": [
+          "cocanada"
+        ]
+      },
+      {
+        "value": "kochi",
+        "synonyms": [
+          "cochin"
+        ]
+      },
+      {
+        "value": "kollam",
+        "synonyms": [
+          "quilon"
+        ]
+      },
+      {
+        "value": "kota",
+        "synonyms": [
+          "kotah"
+        ]
+      },
+      {
+        "value": "kozhikode",
+        "synonyms": [
+          "calicut"
+        ]
+      },
+      {
+        "value": "kurnool",
+        "synonyms": [
+          "kurnal"
+        ]
+      },
+      {
+        "value": "mangalore",
+        "synonyms": [
+          "mangaluru"
+        ]
+      },
+      {
+        "value": "mysore",
+        "synonyms": [
+          "mysuru"
+        ]
+      },
+      {
+        "value": "nashik",
+        "synonyms": [
+          "nasik"
+        ]
+      },
+      {
+        "value": "pallakkad",
+        "synonyms": [
+          "palghat"
+        ]
+      },
+      {
+        "value": "pondicherry",
+        "synonyms": [
+          "puducherry",
+          "pondi"
+        ]
+      },
+      {
+        "value": "prayagraj",
+        "synonyms": [
+          "allahabad"
+        ]
+      },
+      {
+        "value": "pune",
+        "synonyms": [
+          "poona"
+        ]
+      },
+      {
+        "value": "rajahmundry",
+        "synonyms": [
+          "rajamahendravaram"
+        ]
+      },
+      {
+        "value": "ranchi",
+        "synonyms": [
+          "ranch"
+        ]
+      },
+      {
+        "value": "solapur",
+        "synonyms": [
+          "sholapore"
+        ]
+      },
+      {
+        "value": "thiruvananthapuram",
+        "synonyms": [
+          "trivandrum"
+        ]
+      },
+      {
+        "value": "thrissur",
+        "synonyms": [
+          "trichur"
+        ]
+      },
+      {
+        "value": "tiruchirappalli",
+        "synonyms": [
+          "trichy"
+        ]
+      },
+      {
+        "value": "tirunelveli",
+        "synonyms": [
+          "nellai",
+          "tinnevelly"
+        ]
+      },
+      {
+        "value": "tiruvannamalai",
+        "synonyms": [
+          "trinomali",
+          "trinomalee",
+          "arunachalam"
+        ]
+      },
+      {
+        "value": "bijapur",
+        "synonyms": [
+          "vijaypura"
+        ]
+      },
+      {
+        "value": "vadodara",
+        "synonyms": [
+          "baroda"
+        ]
+      },
+      {
+        "value": "varanasi",
+        "synonyms": [
+          "banaras",
+          "kashi",
+          "kasi"
+        ]
+      },
+      {
+        "value": "vijayawada",
+        "synonyms": [
+          "bejawada",
+          "bezawada"
+        ]
+      },
+      {
+        "value": "visakhapatnam",
+        "synonyms": [
+          "vishakhapatnam",
+          "vizag",
+          "waltair"
+        ]
+      },
+      {
+        "value": "warangal",
+        "synonyms": [
+          "orugal"
+        ]
       }
     ]
   }

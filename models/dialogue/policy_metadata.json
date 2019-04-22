@@ -3,9 +3,9 @@
     "action_listen": {
       "slots": [
         "location",
+        "cuisine",
         "budget",
-        "email_address",
-        "cuisine"
+        "email_address"
       ]
     },
     "utter_goodbye": {
@@ -13,21 +13,22 @@
     },
     "action_check_ao": {
       "slots": [
-        "budget",
         "supported_location",
-        "cuisine"
+        "cuisine",
+        "budget"
       ]
     },
     "action_restaurant": {
       "slots": [
-        "location",
         "restaurant_found",
+        "location",
         "search_result"
       ]
     },
     "action_send_mail": {
       "slots": [
-        "search_result"
+        "search_result",
+        "email_address"
       ]
     }
   },
@@ -45,7 +46,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190422-182240",
+  "trained_at": "20190422-210323",
   "rasa_core": "0.13.8",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"
