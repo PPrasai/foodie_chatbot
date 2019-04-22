@@ -98,6 +98,6 @@ actions:
 - utter_ask_email_send
 - utter_ask_email_address
 - utter_invalid_email
-- actions.ActionSearchRestaurants
-- actions.ActionCheckAreaOfOperation
-- actions.ActionSendMail
+- action_restaurant
+- action_check_ao
+- action_send_mail

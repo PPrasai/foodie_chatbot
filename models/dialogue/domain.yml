@@ -1,5 +1,6 @@
-action_factory: null
-action_names:
+%YAML 1.1
+---
+actions:
 - utter_greet
 - utter_goodbye
 - utter_default
@@ -15,22 +16,6 @@ action_names:
 - action_restaurant
 - action_check_ao
 - action_send_mail
-actions:
-- utter_greet
-- utter_goodbye
-- utter_default
-- utter_ask_howcanhelp
-- utter_ask_location
-- utter_ask_cuisine
-- utter_unsupported_city
-- utter_ask_budget
-- utter_sending_email
-- utter_ask_email_send
-- utter_ask_email_address
-- utter_invalid_email
-- actions.ActionSearchRestaurants
-- actions.ActionCheckAreaOfOperation
-- actions.ActionSendMail
 config:
   store_entities_as_slots: true
 entities:
@@ -38,16 +23,25 @@ entities:
 - cuisine
 - budget
 - email_address
+forms: []
 intents:
-- greet
-- affirm
-- deny
-- goodbye
-- thankyou
-- restaurant_search
-- email_entry
+- greet:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- restaurant_search:
+    use_entities: true
+- email_entry:
+    use_entities: true
 slots:
   budget:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.CategoricalSlot
     values:
@@ -55,24 +49,31 @@ slots:
     - 300 to 700
     - over 700
   cuisine:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
   email_address:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
   location:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
   restaurant_found:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.BooleanSlot
   search_result:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.UnfeaturizedSlot
   supported_location:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.BooleanSlot
   valid_email_address:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.BooleanSlot
 templates:

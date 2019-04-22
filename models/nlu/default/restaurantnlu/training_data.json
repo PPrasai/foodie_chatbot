@@ -1146,6 +1146,7 @@
         "pattern": "[0-9]{5}"
       }
     ],
+    "lookup_tables": [],
     "entity_synonyms": [
       {
         "value": "chinese",

@@ -2,9 +2,9 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "location",
         "email_address",
         "budget",
-        "location",
         "cuisine"
       ]
     },
@@ -20,9 +20,9 @@
     },
     "action_restaurant": {
       "slots": [
-        "restaurant_found",
         "location",
-        "search_result"
+        "search_result",
+        "restaurant_found"
       ]
     },
     "action_send_mail": {
@@ -31,14 +31,22 @@
       ]
     }
   },
-  "rasa_core": "0.10.1",
+  "python": "3.6.8",
   "max_histories": [
+    5,
+    null,
     4,
-    5
+    2
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
-  ]
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190422-170230",
+  "rasa_core": "0.13.8",
+  "tensorflow": "1.12.2",
+  "sklearn": "0.20.3"
 }
