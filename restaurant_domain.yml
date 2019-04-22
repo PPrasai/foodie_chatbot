@@ -78,11 +78,11 @@ templates:
   utter_ask_budget: 
     - text: "Which budget range for 2 people do you prefer?"
       buttons: 
-        - title: "Under INR 300"
+        - title: "under 300"
           payload: "under 300"
-        - title: "INR 300 to INR 700"
+        - title: "300 to 700"
           payload: "300 to 700"
-        - title: "Over INR 700"
+        - title: "over 700"
           payload: "over 700"
 
 actions: 
