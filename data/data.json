@@ -17,207 +17,355 @@
     "entity_synonyms": [
       {
         "value": "chinese",
-        "synonyms": ["Chinese", "Chines", "chines"]
+        "synonyms": [
+          "Chinese",
+          "Chines",
+          "chines"
+        ]
       },
       {
         "value": "vegetarian",
-        "synonyms": ["veggie", "vegg"]
-      },
-	  {
-        "value": "South Indian",
-        "synonyms": ["south indian", "south Indian", "South indian", "south", "South"]
-      },
-	  {
-        "value": "North Indian",
-        "synonyms": ["north indian", "north Indian", "North indian", "north", "North"]
-      },
-	  {
-        "value": "American",
-        "synonyms": ["american"]
-      },
-	  {
-        "value": "Italian",
-        "synonyms": ["italian"]
+        "synonyms": [
+          "veggie",
+          "vegg"
+        ]
       },
       {
-        "value": "bengaluru",
-        "synonyms": ["Bangalore", "Bengaluru", "bengaluru", "bangalore", "banglore", "Banglore"]
+        "value": "South Indian",
+        "synonyms": [
+          "south indian",
+          "south Indian",
+          "South indian",
+          "south",
+          "South"
+        ]
+      },
+      {
+        "value": "North Indian",
+        "synonyms": [
+          "north indian",
+          "north Indian",
+          "North indian",
+          "north",
+          "North"
+        ]
+      },
+      {
+        "value": "American",
+        "synonyms": [
+          "american"
+        ]
+      },
+      {
+        "value": "Italian",
+        "synonyms": [
+          "italian"
+        ]
+      },
+      {
+        "value": "bangalore",
+        "synonyms": [
+          "Bangalore",
+          "Bengaluru",
+          "bengaluru",
+          "banglore",
+          "Banglore"
+        ]
       },
       {
         "value": "hyderabad",
-        "synonyms": ["Hyderabad", "Secunderabad", "Kacheguda"]
+        "synonyms": [
+          "Hyderabad",
+          "Secunderabad",
+          "Kacheguda"
+        ]
       },
       {
         "value": "delhi",
-        "synonyms": ["Delhi", "New Delhi", "new delhi", "Dilli", "dilli"]
+        "synonyms": [
+          "Delhi",
+          "New Delhi",
+          "new delhi",
+          "Dilli",
+          "dilli"
+        ]
       },
       {
         "value": "chennai",
-        "synonyms": ["Chennai", "madras", "Madras"]
+        "synonyms": [
+          "Chennai",
+          "madras",
+          "Madras"
+        ]
       },
       {
         "value": "kolkata",
-        "synonyms": ["Kolkata", "Calcutta", "calcutta"]
+        "synonyms": [
+          "Kolkata",
+          "Calcutta",
+          "calcutta"
+        ]
       },
       {
         "value": "mumbai",
-        "synonyms": ["Mumbai", "Bombay", "bombay"]
+        "synonyms": [
+          "Mumbai",
+          "Bombay",
+          "bombay"
+        ]
       },
       {
         "value": "ajmer",
-        "synonyms": ["Ajmer", "Ajayameru", "ajayameru"]
+        "synonyms": [
+          "Ajmer",
+          "Ajayameru",
+          "ajayameru"
+        ]
       },
       {
         "value": "amaravati",
-        "synonyms": ["Amaravati"]
+        "synonyms": [
+          "Amaravati"
+        ]
       },
       {
         "value": "amritsar",
-        "synonyms": ["Amritsar","ramdaspur","ambarsar"]
+        "synonyms": [
+          "Amritsar",
+          "ramdaspur",
+          "ambarsar"
+        ]
       },
       {
         "value": "belgaum",
-        "synonyms": ["belagavi","belgaon","venugrama"]
+        "synonyms": [
+          "belagavi",
+          "belgaon",
+          "venugrama"
+        ]
       },
       {
         "value": "bokaro steel city",
-        "synonyms": ["Bokaro","jharkhand"]
+        "synonyms": [
+          "Bokaro",
+          "jharkhand"
+        ]
       },
       {
         "value": "coimbatore",
-        "synonyms": ["Coimbatore", "Kovai", "Coyamuthur"]
+        "synonyms": [
+          "Coimbatore",
+          "Kovai",
+          "Coyamuthur"
+        ]
       },
       {
         "value": "dehradun",
-        "synonyms": ["dehra dun"]
+        "synonyms": [
+          "dehra dun"
+        ]
       },
       {
         "value": "guntur",
-        "synonyms": ["amaravati"]
+        "synonyms": [
+          "amaravati"
+        ]
       },
       {
         "value": "hubli",
-        "synonyms": ["Dharwad"]
+        "synonyms": [
+          "Dharwad"
+        ]
       },
       {
         "value": "jammu",
-        "synonyms": ["city of temples"]
+        "synonyms": [
+          "city of temples"
+        ]
       },
       {
         "value": "kannur",
-        "synonyms": ["cannanore", "kolathunadu"]
+        "synonyms": [
+          "cannanore",
+          "kolathunadu"
+        ]
       },
       {
         "value": "kanpur",
-        "synonyms": ["cawnpore"]
+        "synonyms": [
+          "cawnpore"
+        ]
       },
       {
         "value": "kakinada",
-        "synonyms": ["cocanada"]
+        "synonyms": [
+          "cocanada"
+        ]
       },
       {
         "value": "kochi",
-        "synonyms": ["cochin"]
+        "synonyms": [
+          "cochin"
+        ]
       },
       {
         "value": "kollam",
-        "synonyms": ["quilon"]
+        "synonyms": [
+          "quilon"
+        ]
       },
       {
         "value": "kota",
-        "synonyms": ["kotah"]
+        "synonyms": [
+          "kotah"
+        ]
       },
       {
         "value": "kozhikode",
-        "synonyms": ["calicut"]
+        "synonyms": [
+          "calicut"
+        ]
       },
       {
         "value": "kurnool",
-        "synonyms": ["kurnal"]
+        "synonyms": [
+          "kurnal"
+        ]
       },
       {
         "value": "mangalore",
-        "synonyms": ["mangaluru"]
+        "synonyms": [
+          "mangaluru"
+        ]
       },
       {
         "value": "mysore",
-        "synonyms": ["mysuru"]
+        "synonyms": [
+          "mysuru"
+        ]
       },
       {
         "value": "nashik",
-        "synonyms": ["nasik"]
+        "synonyms": [
+          "nasik"
+        ]
       },
       {
         "value": "pallakkad",
-        "synonyms": ["palghat"]
+        "synonyms": [
+          "palghat"
+        ]
       },
       {
         "value": "pondicherry",
-        "synonyms": ["puducherry","pondi"]
+        "synonyms": [
+          "puducherry",
+          "pondi"
+        ]
       },
       {
         "value": "prayagraj",
-        "synonyms": ["allahabad"]
+        "synonyms": [
+          "allahabad"
+        ]
       },
       {
         "value": "pune",
-        "synonyms": ["poona"]
+        "synonyms": [
+          "poona"
+        ]
       },
       {
         "value": "rajahmundry",
-        "synonyms": ["rajamahendravaram"]
+        "synonyms": [
+          "rajamahendravaram"
+        ]
       },
       {
         "value": "ranchi",
-        "synonyms": ["ranch"]
+        "synonyms": [
+          "ranch"
+        ]
       },
       {
         "value": "solapur",
-        "synonyms": ["sholapore"]
+        "synonyms": [
+          "sholapore"
+        ]
       },
       {
         "value": "thiruvananthapuram",
-        "synonyms": ["trivandrum"]
+        "synonyms": [
+          "trivandrum"
+        ]
       },
       {
         "value": "thrissur",
-        "synonyms": ["trichur"]
+        "synonyms": [
+          "trichur"
+        ]
       },
       {
         "value": "tiruchirappalli",
-        "synonyms": ["trichy"]
+        "synonyms": [
+          "trichy"
+        ]
       },
       {
         "value": "tirunelveli",
-        "synonyms": ["nellai","tinnevelly"]
+        "synonyms": [
+          "nellai",
+          "tinnevelly"
+        ]
       },
       {
         "value": "tiruvannamalai",
-        "synonyms": ["trinomali", "trinomalee", "arunachalam"]
+        "synonyms": [
+          "trinomali",
+          "trinomalee",
+          "arunachalam"
+        ]
       },
       {
         "value": "bijapur",
-        "synonyms": ["vijaypura"]
+        "synonyms": [
+          "vijaypura"
+        ]
       },
       {
         "value": "vadodara",
-        "synonyms": ["baroda"]
+        "synonyms": [
+          "baroda"
+        ]
       },
       {
         "value": "varanasi",
-        "synonyms": ["banaras","kashi","kasi"]
+        "synonyms": [
+          "banaras",
+          "kashi",
+          "kasi"
+        ]
       },
       {
         "value": "vijayawada",
-        "synonyms": ["bejawada", "bezawada"]
+        "synonyms": [
+          "bejawada",
+          "bezawada"
+        ]
       },
       {
         "value": "visakhapatnam",
-        "synonyms": ["vishakhapatnam", "vizag", "waltair"]
+        "synonyms": [
+          "vishakhapatnam",
+          "vizag",
+          "waltair"
+        ]
       },
       {
         "value": "warangal",
-        "synonyms": ["orugal"]
+        "synonyms": [
+          "orugal"
+        ]
       }
     ],
     "common_examples": [
@@ -1382,6 +1530,46 @@
             "entity": "location"
           }
         ]
+      },
+      {
+        "text": "no thank you",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no, thank you",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no please",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "please no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "maybe next time",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "i will not",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "affirm",
+        "entities": []
       }
     ]
   }

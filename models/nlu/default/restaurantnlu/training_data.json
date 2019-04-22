@@ -1130,6 +1130,38 @@
           }
         ],
         "text": "tokyo"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no, thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "no please"
+      },
+      {
+        "intent": "deny",
+        "text": "please no"
+      },
+      {
+        "intent": "deny",
+        "text": "maybe next time"
+      },
+      {
+        "intent": "deny",
+        "text": "i will not"
+      },
+      {
+        "intent": "affirm",
+        "text": "thanks"
       }
     ],
     "regex_features": [
@@ -1196,11 +1228,11 @@
         ]
       },
       {
-        "value": "bengaluru",
+        "value": "bangalore",
         "synonyms": [
           "Bangalore",
           "Bengaluru",
-          "bangalore",
+          "bengaluru",
           "banglore",
           "Banglore"
         ]

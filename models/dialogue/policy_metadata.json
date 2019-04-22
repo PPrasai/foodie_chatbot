@@ -2,26 +2,23 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "location",
-        "cuisine",
         "budget",
-        "email_address"
+        "location",
+        "email_address",
+        "cuisine"
       ]
-    },
-    "utter_goodbye": {
-      "slots": []
     },
     "action_check_ao": {
       "slots": [
+        "budget",
         "supported_location",
-        "cuisine",
-        "budget"
+        "cuisine"
       ]
     },
     "action_restaurant": {
       "slots": [
-        "restaurant_found",
         "location",
+        "restaurant_found",
         "search_result"
       ]
     },
@@ -30,6 +27,12 @@
         "search_result",
         "email_address"
       ]
+    },
+    "action_restart": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
     }
   },
   "python": "3.6.8",
@@ -46,7 +49,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190422-210323",
+  "trained_at": "20190422-235245",
   "rasa_core": "0.13.8",
   "tensorflow": "1.12.2",
   "sklearn": "0.20.3"

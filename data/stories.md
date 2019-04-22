@@ -934,3 +934,19 @@
     - utter_goodbye
     - action_restart
 
+## Generated Story -7712089952064793157
+* greet
+    - utter_greet
+* restaurant_search{"budget": "over 700", "cuisine": "Italian", "location": "mumbai"}
+    - slot{"budget": "over 700"}
+    - slot{"cuisine": "Italian"}
+    - slot{"location": "mumbai"}
+    - action_check_ao
+    - slot{"supported_location": true}
+    - action_restaurant
+    - slot{"restaurant_found": true}
+    - slot{"search_result": "Here are the results of you search: \n\n1. Half Full\nThird Floor, The Planet Mall, Sevoke Road, Near Bankim Nagar\nHas Excellent rating of 4.6\nWith an average bill amount of Rs. 1000\n\n2. The Tribe\nThird Floor, The Planet Mall, Sevoke Road, Near Bankim Nagar\nHas Good rating of 3.9\nWith an average bill amount of Rs. 1000\n\n3. Kaidi Kitchen\n3rd Floor, Planet Mall, Sevoke Road, Bankim Nagar, Siliguri\nHas Not rated rating of 0\nWith an average bill amount of Rs. 700\n\n4. Overdose\n23, Lake Terrace, Sarath Bose Road, Southern Avenue, Kolkata\nHas Excellent rating of 4.5\nWith an average bill amount of Rs. 550\n\n5. The Bhoj Company\n60, Hemanta Basu Sarani, Dalhousie BBD Bagh, Kolkata(Stephen House) Opp.B.B.D Bagh mini bus stand\nHas Excellent rating of 4.5\nWith an average bill amount of Rs. 500\n\n6. Second House Restaurant\n14, Sardar Shankar Road, Behind Lake Mall, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 550\n\n7. Macazzo\n64, Southern Avenue, Near Menoka Cinema Hall, Beside Medinova Diagnostic Services, Southern Avenue, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 500\n\n8. Momo I Am\nCD 18, Next To Kalyan Jewelers, City Centre 1, Sector 1, Salt Lake\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n9. Momo I Am\nShop G-B, Ground Floor, Tarun Alo Apartment, Chinar Park\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n10. Momo I Am\n43 Ballygunge Gardens, Gariahat, Golpark, Kolkata\nHas Very Good rating of 4.4\nWith an average bill amount of Rs. 600\n\n"}
+    - utter_ask_email_send
+* deny{"deny": "no"}
+    - utter_goodbye
+    - action_restart
